@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SAK Group - Login Successful</title>
+
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+
+        <div class="logo">
+            SAK Group
+        </div>
+
+        <div class="nav-links">
+            <a href="/">Home</a>
+            <a href="/user/login">Login</a>
+            <a href="/signup">Register</a>
+        </div>
+
+    </nav>
+
+
+    <div class="signup-container">
+
+        <h2>Login Successful</h2>
+
+        <p style="text-align: center;">
+            Welcome, <span th:text="${username}"></span>!
+        </p>
+
+    </div>
+
+
+    <footer class="footer">
+        <p>© 2026 SAK Group. All rights reserved.</p>
+    </footer>
+
+</body>
+
+</html>
